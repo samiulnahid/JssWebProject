@@ -73,7 +73,7 @@ const Layout = ({ route }) => (
     */}
     <VisitorIdentification />
 
-    <Navigation />
+    {/* <Navigation /> */}
 
     {/* root placeholder for the app, which we add components to using route data */}
     <div className="page__wrapper">

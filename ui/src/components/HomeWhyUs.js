@@ -1,3 +1,4 @@
+import { Text } from '@sitecore-jss/sitecore-jss-react';
 import React from 'react';
 
 const HomeWhyUs = (props) => (
@@ -5,7 +6,7 @@ const HomeWhyUs = (props) => (
     <div className="container">
       <div className="heading_container heading_center">
         <h2>
-          Why Choose <span>Us</span>
+          <Text field={props.fields.Heading} />
         </h2>
       </div>
       <div className="why_container">

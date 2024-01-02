@@ -1,3 +1,4 @@
+import { Text } from '@sitecore-jss/sitecore-jss-react';
 import React from 'react';
 
 const HomeTestimonial = (props) => (
@@ -5,7 +6,7 @@ const HomeTestimonial = (props) => (
     <div className="container">
       <div className="heading_container heading_center psudo_white_primary mb_45">
         <h2>
-          What says our <span>Customers</span>
+          <Text field={props.fields.Heading} />
         </h2>
       </div>
       <div className="carousel-wrap">
