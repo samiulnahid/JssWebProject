@@ -23,9 +23,9 @@ const HomeAboutUs = (props) => (
             <h3>We Are Finexo</h3>
             <p>
               There are many variations of passages of Lorem Ipsum available, but the majority have
-              suffered alteration in some form, by injected humour, or randomised words which don't
+              suffered alteration in some form, by injected humour, or randomised words which do not
               look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
-              need to be sure there isn't anything embarrassing hidden in the middle of text. All
+              need to be sure there is not anything embarrassing hidden in the middle of text. All
             </p>
             <p>
               Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem,

@@ -1,11 +1,13 @@
-import { Text } from '@sitecore-jss/sitecore-jss-react';
+import { Image, RichText, Text } from '@sitecore-jss/sitecore-jss-react';
 import React from 'react';
 
 const HomeBanner = (props) => (
   <>
     <div className="hero_area">
       <div className="hero_bg_box">
-        <div className="bg_img_box">{/* <img src="" alt="ds"> */}</div>
+        <div className="bg_img_box">
+          <Image field={props.fields.BackgroundImage} />
+        </div>
       </div>
 
       <section className="slider_section">
@@ -17,16 +19,10 @@ const HomeBanner = (props) => (
                   <div className="col-md-6">
                     <div className="detail-box">
                       <h1>
-                        Crypto <br />
-                        Currency
+                        <Text field={props.fields.Heading} />
                       </h1>
-                      <p>HomeBanner Component</p>
-                      <Text field={props.fields.heading} />
                       <p className="__red">
-                        Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam
-                        fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat
-                        molestias, veniam, vel architecto veritatis delectus repellat modi impedit
-                        sequi.
+                        <RichText field={props.fields.Description} />
                       </p>
                       <div className="btn-box">
                         <a href="" className="btn1">
@@ -37,7 +33,7 @@ const HomeBanner = (props) => (
                   </div>
                   <div className="col-md-6">
                     <div className="img-box">
-                      <img src="images/slider-img.png" alt="" />
+                      <Image field={props.fields.HeroImage} />
                     </div>
                   </div>
                 </div>

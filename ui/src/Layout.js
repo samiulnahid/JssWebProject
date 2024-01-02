@@ -76,7 +76,7 @@ const Layout = ({ route }) => (
     <Navigation />
 
     {/* root placeholder for the app, which we add components to using route data */}
-    <div className="container px-5">
+    <div className="page__wrapper">
       <Placeholder name="jss-main" rendering={route} />
     </div>
   </React.Fragment>

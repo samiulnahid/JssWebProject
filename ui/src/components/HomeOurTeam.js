@@ -1,124 +1,124 @@
 import React from 'react';
 
 const HomeOurTeam = (props) => (
-  <section class="team_section layout_padding">
-    <div class="container-fluid">
-      <div class="heading_container heading_center">
-        <h2 class="">
+  <section className="team_section layout_padding">
+    <div className="container-fluid">
+      <div className="heading_container heading_center">
+        <h2 className="">
           Our <span> Team</span>
         </h2>
       </div>
 
-      <div class="team_container">
-        <div class="row">
-          <div class="col-lg-3 col-sm-6">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/team-1.jpg" class="img1" alt="" />
+      <div className="team_container">
+        <div className="row">
+          <div className="col-lg-3 col-sm-6">
+            <div className="box">
+              <div className="img-box">
+                <img src="images/team-1.jpg" className="img1" alt="" />
               </div>
-              <div class="detail-box">
+              <div className="detail-box">
                 <h5>Joseph Brown</h5>
                 <p>Marketing Head</p>
               </div>
-              <div class="social_box">
+              <div className="social_box">
                 <a href="#">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i className="fa fa-facebook" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <i className="fa fa-twitter" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  <i className="fa fa-linkedin" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <i className="fa fa-instagram" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                  <i className="fa fa-youtube-play" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/team-2.jpg" class="img1" alt="" />
+          <div className="col-lg-3 col-sm-6">
+            <div className="box">
+              <div className="img-box">
+                <img src="images/team-2.jpg" className="img1" alt="" />
               </div>
-              <div class="detail-box">
+              <div className="detail-box">
                 <h5>Nancy White</h5>
                 <p>Marketing Head</p>
               </div>
-              <div class="social_box">
+              <div className="social_box">
                 <a href="#">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i className="fa fa-facebook" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <i className="fa fa-twitter" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  <i className="fa fa-linkedin" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <i className="fa fa-instagram" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                  <i className="fa fa-youtube-play" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/team-3.jpg" class="img1" alt="" />
+          <div className="col-lg-3 col-sm-6">
+            <div className="box">
+              <div className="img-box">
+                <img src="images/team-3.jpg" className="img1" alt="" />
               </div>
-              <div class="detail-box">
+              <div className="detail-box">
                 <h5>Earl Martinez</h5>
                 <p>Marketing Head</p>
               </div>
-              <div class="social_box">
+              <div className="social_box">
                 <a href="#">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i className="fa fa-facebook" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <i className="fa fa-twitter" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  <i className="fa fa-linkedin" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <i className="fa fa-instagram" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                  <i className="fa fa-youtube-play" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/team-4.jpg" class="img1" alt="" />
+          <div className="col-lg-3 col-sm-6">
+            <div className="box">
+              <div className="img-box">
+                <img src="images/team-4.jpg" className="img1" alt="" />
               </div>
-              <div class="detail-box">
+              <div className="detail-box">
                 <h5>Josephine Allard</h5>
                 <p>Marketing Head</p>
               </div>
-              <div class="social_box">
+              <div className="social_box">
                 <a href="#">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i className="fa fa-facebook" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <i className="fa fa-twitter" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  <i className="fa fa-linkedin" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <i className="fa fa-instagram" aria-hidden="true"></i>
                 </a>
                 <a href="#">
-                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                  <i className="fa fa-youtube-play" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
