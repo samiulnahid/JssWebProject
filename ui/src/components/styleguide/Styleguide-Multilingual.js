@@ -20,7 +20,7 @@ const StyleguideMultilingual = (props) => (
     <p>
       <Link to="/en/styleguide">Show in English</Link>
       <br />
-      <Link to="/da-DK/styleguide">Show in da-DK</Link>
+      <Link to="/en-EN/styleguide">Show in en-EN</Link>
     </p>
     <p>The current language is: {props.i18n.language}</p>
   </StyleguideSpecimen>

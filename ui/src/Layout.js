@@ -1,9 +1,11 @@
-import React from 'react';
 import { Placeholder, VisitorIdentification } from '@sitecore-jss/sitecore-jss-react';
-import { NavLink } from 'react-router-dom';
-import { withTranslation } from 'react-i18next';
 import deepEqual from 'deep-equal';
+import React from 'react';
 import Helmet from 'react-helmet';
+import { withTranslation } from 'react-i18next';
+import { NavLink } from 'react-router-dom';
+import './assets/responsive.css';
+import './assets/style.css';
 
 // Using bootstrap is completely optional. It's used here to provide a clean layout for samples,
 // without needing extra CSS in the sample app. Remove it in package.json as well if it's removed here.
@@ -26,6 +28,7 @@ let Navigation = ({ t, i18n }) => (
     <h5 className="my-0 me-md-auto fw-normal">
       <NavLink to="/" className="text-dark">
         <img src={logo} alt="Sitecore" />
+        {/* <p className="__red">aaaaaa</p> */}
       </NavLink>
     </h5>
     <nav className="my-2 my-md-0 me-md-3">
