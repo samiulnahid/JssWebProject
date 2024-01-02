@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{7556854C-5A8E-4B51-A697-3C7BC7CC2DFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{2C2DE090-8828-4BD3-B34B-DCC4E1195163}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{ED85EE1D-92CB-4E28-AA60-5A2A8C6BBAED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JssWeb", "Project\JssWeb\JssWeb.csproj", "{BFCB778B-899A-4893-9654-947F58253CA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFCB778B-899A-4893-9654-947F58253CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFCB778B-899A-4893-9654-947F58253CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFCB778B-899A-4893-9654-947F58253CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFCB778B-899A-4893-9654-947F58253CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFCB778B-899A-4893-9654-947F58253CA0} = {7556854C-5A8E-4B51-A697-3C7BC7CC2DFD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFCEFE93-9C95-4309-92D6-A615D4FED897}
+	EndGlobalSection
+EndGlobal
