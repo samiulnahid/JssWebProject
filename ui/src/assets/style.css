@@ -284,12 +284,13 @@ a:focus {
   position: unset;
 }
 
-.hero_area .slider_section .detail-box {
-  color: #00204a;
-}
 
 .slider_section .detail-box {
   color: #fff;
+}
+
+.hero_area .slider_section .detail-box {
+  color: #00204a;
 }
 
 .slider_section .detail-box h1 {
