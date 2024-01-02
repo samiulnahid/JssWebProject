@@ -9,9 +9,11 @@ body {
 
 img {
   height: auto;
-
 }
 
+a:hover {
+  text-decoration: none;
+}
 
 .layout_padding {
   padding: 90px 0;
@@ -282,8 +284,12 @@ a:focus {
   position: unset;
 }
 
-.slider_section .detail-box {
+.hero_area .slider_section .detail-box {
   color: #00204a;
+}
+
+.slider_section .detail-box {
+  color: #fff;
 }
 
 .slider_section .detail-box h1 {
@@ -657,6 +663,8 @@ a:focus {
   width: 120px;
   border-radius: 100%;
   border: 5px solid #ffffff;
+  aspect-ratio: 1/1;
+  background: #fff;
 }
 
 .team_section .team_container .box .detail-box {
