@@ -7,6 +7,8 @@ import { NavLink } from 'react-router-dom';
 import './assets/responsive.css';
 import './assets/style.css';
 
+import Header from './components/Layout/Header';
+
 // Using bootstrap is completely optional. It's used here to provide a clean layout for samples,
 // without needing extra CSS in the sample app. Remove it in package.json as well if it's removed here.
 import 'bootstrap/dist/css/bootstrap.css';
@@ -74,6 +76,7 @@ const Layout = ({ route }) => (
     <VisitorIdentification />
 
     {/* <Navigation /> */}
+    <Header />
 
     {/* root placeholder for the app, which we add components to using route data */}
     <div className="page__wrapper">
