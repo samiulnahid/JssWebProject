@@ -3,9 +3,11 @@ import React from 'react';
 
 const HomeService = (props) => {
   console.log('HomeService', props);
+  console.log('HomeService', props.fields.items);
 
   return (
     <section className="service_section layout_padding">
+      <p>{JSON.stringify(props)}</p>
       <div className="service_container">
         <div className="container">
           <div className="heading_container heading_center">
@@ -20,7 +22,7 @@ const HomeService = (props) => {
             <div className="col-md-4">
               <div className="box">
                 <div className="img-box">
-                  <img src="images/s1.png" alt="" />
+                  <img src="" alt="" />
                 </div>
                 <div className="detail-box">
                   <h5>Currency Wallet</h5>
@@ -35,7 +37,7 @@ const HomeService = (props) => {
             <div className="col-md-4">
               <div className="box">
                 <div className="img-box">
-                  <img src="images/s2.png" alt="" />
+                  <img src="" alt="" />
                 </div>
                 <div className="detail-box">
                   <h5>Security Storage</h5>
@@ -50,7 +52,7 @@ const HomeService = (props) => {
             <div className="col-md-4">
               <div className="box">
                 <div className="img-box">
-                  <img src="images/s3.png" alt="" />
+                  <img src="" alt="" />
                 </div>
                 <div className="detail-box">
                   <h5>Expert Support</h5>

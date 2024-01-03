@@ -6,7 +6,9 @@
   "config": {
     "appName": "sitecore-jss-app",
     "rootPlaceholders": [
-      "jss-main"
+      "jss-header",
+      "jss-main",
+      "jss-footer"
     ],
     "sitecoreDistPath": "/dist/sitecore-jss-app",
     "sitecoreConfigPath": "/App_Config/Include/zzz",
@@ -123,3 +125,4 @@
     "not op_mini all"
   ]
 }
+

@@ -44,7 +44,9 @@ const Layout = ({ route }) => (
 
     {/* root placeholder for the app, which we add components to using route data */}
     <div className="page__wrapper">
+      <Placeholder name="jss-header" rendering={route} />
       <Placeholder name="jss-main" rendering={route} />
+      <Placeholder name="jss-footer" rendering={route} />
     </div>
 
     <Footer />
