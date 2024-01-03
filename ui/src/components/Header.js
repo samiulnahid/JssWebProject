@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 export default function Header() {
@@ -7,16 +7,21 @@ export default function Header() {
     setShowNav((prevState) => !prevState);
   };
 
+  console.log(showNav);
+
+  useEffect(() => {
+    console.log('useEffect');
+  });
+
   return (
     <header
       className="header_section"
       style={{ background: 'linear-gradient(130deg, #20146A, #06014B)' }}
-      onClick={() => alert('Header')}
     >
       <div className="container-fluid">
         <nav className="navbar navbar-expand-lg custom_nav-container">
-          <Link className="navbar-brand" to="index.html">
-            <span> Finexo </span>
+          <Link className="navbar-brand" to="/">
+            <span onClick={() => alert('Logo')}> Finexo </span>
           </Link>
 
           <button
