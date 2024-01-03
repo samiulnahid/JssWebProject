@@ -3,7 +3,6 @@ import React from 'react';
 
 const HomeService = (props) => {
   console.log('HomeService', props);
-  console.log('HomeService', props.fields.items);
 
   return (
     <section className="service_section layout_padding">
