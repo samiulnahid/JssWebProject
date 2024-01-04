@@ -1,9 +1,11 @@
-import { RichText, Text } from '@sitecore-jss/sitecore-jss-react';
+import { Image, RichText, Text } from '@sitecore-jss/sitecore-jss-react';
 import React from 'react';
 
 const HomeService = (props) => {
   return (
     <section className="service_section layout_padding">
+      {/* <small>{JSON.stringify(props)}</small> */}
+
       <div className="service_container">
         <div className="container">
           <div className="heading_container heading_center">
@@ -15,62 +17,21 @@ const HomeService = (props) => {
             </p>
           </div>
 
-          <div id="test">
-            {/* <small>{JSON.stringify(props)}</small> */}
-
-            {props.fields?.items?.map((item, i) => (
-              <p key={i} className="container2jh">
-                <Text field={item.fields.PromoTitle} />
-              </p>
-            ))}
-          </div>
-
           <div className="row">
-            <div className="col-md-4">
-              <div className="box">
-                <div className="img-box">
-                  <img src="" alt="" />
-                </div>
-                <div className="detail-box">
-                  <h5>Currency Wallet</h5>
-                  <p>
-                    fact that a reader will be distracted by the readable content of a page when
-                    looking at its layout. The point of using
-                  </p>
-                  <a href=""> Read More </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="box">
-                <div className="img-box">
-                  <img src="" alt="" />
-                </div>
-                <div className="detail-box">
-                  <h5>Security Storage</h5>
-                  <p>
-                    fact that a reader will be distracted by the readable content of a page when
-                    looking at its layout. The point of using
-                  </p>
-                  <a href=""> Read More </a>
+            {props.fields?.Services?.map((item) => (
+              <div key={item.id} className="col-md-4">
+                <div className="box">
+                  <div className="img-box">
+                    <Image field={item.fields?.PromoImage.value} />
+                  </div>
+                  <div className="detail-box">
+                    <h5>{item.fields?.PromoTitle.value}</h5>
+                    <p>{item.fields?.PromoDescription.value}</p>
+                    <a href={item.fields?.PromoCTA.value.href}> Read More </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4">
-              <div className="box">
-                <div className="img-box">
-                  <img src="" alt="" />
-                </div>
-                <div className="detail-box">
-                  <h5>Expert Support</h5>
-                  <p>
-                    fact that a reader will be distracted by the readable content of a page when
-                    looking at its layout. The point of using
-                  </p>
-                  <a href=""> Read More </a>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
           <div className="btn-box">
             <a href=""> View All </a>

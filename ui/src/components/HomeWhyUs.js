@@ -3,6 +3,8 @@ import React from 'react';
 
 const HomeWhyUs = (props) => (
   <section className="why_section layout_padding">
+    <small>{JSON.stringify(props)}</small>
+
     <div className="container">
       <div className="heading_container heading_center">
         <h2>
