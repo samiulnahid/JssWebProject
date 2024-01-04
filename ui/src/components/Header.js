@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
-export default function Header() {
+export default function Header(props) {
   const [showNav, setShowNav] = useState(false);
   const toggleNav = () => {
     setShowNav((prevState) => !prevState);
@@ -40,36 +40,16 @@ export default function Header() {
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav">
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/">
-                  Home
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/about">
-                  About
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/service">
-                  Services
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/why-us">
-                  Why Us
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/team">
-                  Team
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="#">
-                  <i className="fa fa-user" aria-hidden="true"></i> Login
-                </NavLink>
-              </li>
+              {props.rendering?.fields?.items.map((item) => {
+                return (
+                  <li key={item.id} className="nav-item">
+                    <NavLink className="nav-link" to={item.fields?.PageUrl.value.href}>
+                      {item.fields?.NavigationTitle.value}
+                    </NavLink>
+                  </li>
+                );
+              })}
+
               <form className="form-inline">
                 <button className="btn my-2 my-sm-0 nav_search-btn" type="submit">
                   <i className="fa fa-search" aria-hidden="true"></i>
@@ -78,6 +58,7 @@ export default function Header() {
             </ul>
           </div>
         </nav>
+        {/* <small>{JSON.stringify(props)}</small> */}
       </div>
     </header>
   );
