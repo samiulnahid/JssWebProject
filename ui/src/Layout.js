@@ -3,9 +3,6 @@ import deepEqual from 'deep-equal';
 import React from 'react';
 import Helmet from 'react-helmet';
 
-import Header from './components/Header';
-// import Footer from './components/Footer';
-
 // Using bootstrap is completely optional. It's used here to provide a clean layout for samples,
 // without needing extra CSS in the sample app. Remove it in package.json as well if it's removed here.
 import 'bootstrap/dist/css/bootstrap.css';
@@ -39,17 +36,12 @@ const Layout = ({ route }) => (
     */}
     <VisitorIdentification />
 
-    {/* <Navigation /> */}
-    {/* <Header /> */}
-
     {/* root placeholder for the app, which we add components to using route data */}
     <div className="page__wrapper">
       <Placeholder name="jss-header" rendering={route} />
       <Placeholder name="jss-main" rendering={route} />
       <Placeholder name="jss-footer" rendering={route} />
     </div>
-
-    {/* <Footer /> */}
   </React.Fragment>
 );
 
