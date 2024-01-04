@@ -55,19 +55,19 @@ export default function Footer() {
               <div className="info_link_box">
                 <h4>Links</h4>
                 <div className="info_links">
-                  <Link className="active" href="/">
+                  <Link className="active" to="/">
                     Home
                   </Link>
-                  <Link className="" href="/about">
+                  <Link className="" to="/about">
                     About
                   </Link>
-                  <Link className="" href="/service">
+                  <Link className="" to="/service">
                     Services
                   </Link>
-                  <Link className="" href="/why-us">
+                  <Link className="" to="/why-us">
                     .html Why Us
                   </Link>
-                  <Link className="" href="/team">
+                  <Link className="" to="/team">
                     Team
                   </Link>
                 </div>

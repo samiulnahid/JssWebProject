@@ -1,7 +1,18 @@
+import React, { useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import React from 'react';
 
 export default function Header() {
+  const [showNav, setShowNav] = useState(false);
+  const toggleNav = () => {
+    setShowNav((prevState) => !prevState);
+  };
+
+  console.log(showNav);
+
+  useEffect(() => {
+    console.log('useEffect');
+  });
+
   return (
     <header
       className="header_section"
@@ -9,51 +20,53 @@ export default function Header() {
     >
       <div className="container-fluid">
         <nav className="navbar navbar-expand-lg custom_nav-container">
-          <Link className="navbar-brand" href="index.html">
-            <span> Finexo </span>
+          <Link className="navbar-brand" to="/">
+            <span onClick={() => alert('Logo')}> Finexo </span>
           </Link>
 
           <button
             className="navbar-toggler"
             type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
+            aria-expanded={showNav}
             aria-label="Toggle navigation"
+            onClick={toggleNav}
           >
             <span className=""> </span>
           </button>
 
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            // className={`collapse navbar-collapse`}
+            className={`collapse navbar-collapse ${showNav && 'show'}`}
+            id="navbarSupportedContent"
+          >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink className="nav-link" href="/">
+                <NavLink className="nav-link" to="/">
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" href="/about">
+                <NavLink className="nav-link" to="/about">
                   About
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" href="/service">
+                <NavLink className="nav-link" to="/service">
                   Services
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" href="/why-us">
+                <NavLink className="nav-link" to="/why-us">
                   Why Us
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" href="/team">
+                <NavLink className="nav-link" to="/team">
                   Team
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" href="#">
+                <NavLink className="nav-link" to="#">
                   <i className="fa fa-user" aria-hidden="true"></i> Login
                 </NavLink>
               </li>

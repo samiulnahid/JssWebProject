@@ -2,25 +2,34 @@ import { RichText, Text } from '@sitecore-jss/sitecore-jss-react';
 import React from 'react';
 
 const HomeService = (props) => {
-  console.log('HomeService', props);
-
   return (
     <section className="service_section layout_padding">
       <div className="service_container">
         <div className="container">
           <div className="heading_container heading_center">
             <h2>
-              <Text field={props.fields.heading} />
+              <Text field={props.fields?.heading} />
             </h2>
             <p>
-              <RichText field={props.fields.Description} />
+              <RichText field={props.fields?.Description} />
             </p>
           </div>
+
+          <div id="test">
+            {/* <small>{JSON.stringify(props)}</small> */}
+
+            {props.fields?.items?.map((item, i) => (
+              <p key={i} className="container2jh">
+                <Text field={item.fields.PromoTitle} />
+              </p>
+            ))}
+          </div>
+
           <div className="row">
             <div className="col-md-4">
               <div className="box">
                 <div className="img-box">
-                  <img src="images/s1.png" alt="" />
+                  <img src="" alt="" />
                 </div>
                 <div className="detail-box">
                   <h5>Currency Wallet</h5>
@@ -35,7 +44,7 @@ const HomeService = (props) => {
             <div className="col-md-4">
               <div className="box">
                 <div className="img-box">
-                  <img src="images/s2.png" alt="" />
+                  <img src="" alt="" />
                 </div>
                 <div className="detail-box">
                   <h5>Security Storage</h5>
@@ -50,7 +59,7 @@ const HomeService = (props) => {
             <div className="col-md-4">
               <div className="box">
                 <div className="img-box">
-                  <img src="images/s3.png" alt="" />
+                  <img src="" alt="" />
                 </div>
                 <div className="detail-box">
                   <h5>Expert Support</h5>
