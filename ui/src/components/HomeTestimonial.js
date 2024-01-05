@@ -16,9 +16,11 @@ const HomeTestimonial = (props) => (
     <div className="container">
       <div className="heading_container heading_center psudo_white_primary mb_45">
         <h2>
+          Our Clients Says
           <Text field={props.fields.Heading} />
         </h2>
       </div>
+
       <div className="carousel-wrap">
         <div className="owl-carousel client_owl-carousel">
           {/* Slider */}
@@ -29,6 +31,7 @@ const HomeTestimonial = (props) => (
             pagination={true}
             // onSlideChange={() => console.log('slide change')}
             // onSwiper={(swiper) => console.log(swiper)}
+            style={{ paddingBottom: 30, userSelect: 'none' }}
           >
             <SwiperSlide>
               <Testimonial />
