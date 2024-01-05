@@ -729,11 +729,13 @@ a:focus {
   width: 100px;
   margin-bottom: -50px;
   margin-left: 25px;
-  position: relative;
+  /* position: absolute; */
 }
 
 .client_section .box .img-box img {
   border-radius: 100%;
+  width: 100%;
+
 }
 
 .client_section .box .client_id {
