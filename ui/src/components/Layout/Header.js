@@ -13,6 +13,10 @@ export default function Header(props) {
     console.log('useEffect');
   });
 
+  function alert() {
+    alert('Logo');
+  }
+
   return (
     <header
       className="header_section"
@@ -21,7 +25,7 @@ export default function Header(props) {
       <div className="container-fluid">
         <nav className="navbar navbar-expand-lg custom_nav-container">
           <Link className="navbar-brand" to="/">
-            <span onClick={() => alert('Logo')}> Finexo </span>
+            <span onClick={alert}> Finexo </span>
           </Link>
 
           <button
