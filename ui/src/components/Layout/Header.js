@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 export default function Header(props) {
@@ -6,12 +6,6 @@ export default function Header(props) {
   const toggleNav = () => {
     setShowNav((prevState) => !prevState);
   };
-
-  console.log(showNav);
-
-  useEffect(() => {
-    console.log('useEffect');
-  });
 
   return (
     <header
@@ -21,7 +15,7 @@ export default function Header(props) {
       <div className="container-fluid">
         <nav className="navbar navbar-expand-lg custom_nav-container">
           <Link className="navbar-brand" to="/">
-            <span onClick={() => alert('Logo')}> Finexo </span>
+            <span> Finexo </span>
           </Link>
 
           <button
@@ -35,7 +29,6 @@ export default function Header(props) {
           </button>
 
           <div
-            // className={`collapse navbar-collapse`}
             className={`collapse navbar-collapse ${showNav && 'show'}`}
             id="navbarSupportedContent"
           >
@@ -58,7 +51,6 @@ export default function Header(props) {
             </ul>
           </div>
         </nav>
-        {/* <small>{JSON.stringify(props)}</small> */}
       </div>
     </header>
   );
