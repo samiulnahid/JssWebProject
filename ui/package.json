@@ -37,7 +37,9 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@apollo/client": "^3.7.1",
+    "@sitecore-jss/sitecore-jss-forms": "^21.5.3",
     "@sitecore-jss/sitecore-jss-react": "~21.5.3",
+    "@sitecore-jss/sitecore-jss-react-forms": "^21.5.3",
     "axios": "^1.2.0",
     "bootstrap": "^5.2.3",
     "cross-fetch": "^3.1.5",
@@ -95,6 +97,7 @@
     "prettier": "^2.8.0",
     "speed-measure-webpack-plugin": "^1.5.0",
     "stats-webpack-plugin": "^0.7.0",
+    "tailwindcss": "^3.4.1",
     "webpack": "~5.76.2",
     "webpack-cli": "~5.0.0"
   },

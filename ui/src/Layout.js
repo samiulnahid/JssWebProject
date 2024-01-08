@@ -7,6 +7,7 @@ import Helmet from 'react-helmet';
 // without needing extra CSS in the sample app. Remove it in package.json as well if it's removed here.
 import 'bootstrap/dist/css/bootstrap.css';
 import './assets/css/app.css';
+import './assets/css/form.css';
 import './assets/css/responsive.css';
 import './assets/css/style.css';
 
