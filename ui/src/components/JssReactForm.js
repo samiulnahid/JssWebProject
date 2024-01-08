@@ -23,8 +23,7 @@ import { sitecoreApiHost, sitecoreApiKey } from '../temp/config';
 
 const JssReactForm = ({ fields, history }) => {
   return (
-    <section>
-      <h1 className="text-3xl font-bold underline text-red-600">Tailwind</h1>
+    <section className="sitecore__form">
       <Form
         form={fields}
         sitecoreApiHost={sitecoreApiHost}
