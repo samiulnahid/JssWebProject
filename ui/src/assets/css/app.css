@@ -29,3 +29,12 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.loader__wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.021);
+}
