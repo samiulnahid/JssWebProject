@@ -33,3 +33,14 @@
     padding: 7px;
     letter-spacing: .5px;
 }
+
+.invalid p {
+    color: #f73a3a;
+}
+
+.form-errors .invalid {
+    background: red;
+    padding: 5px 10px;
+    color: #fff;
+    margin-bottom: 1px;
+}

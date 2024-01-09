@@ -1,36 +1,25 @@
 import { Form } from '@sitecore-jss/sitecore-jss-react-forms';
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { sitecoreApiHost, sitecoreApiKey } from '../temp/config';
-// import { withRouter } from 'react-router-dom';
 
-// class FormDisplay extends Component {
-//   constructor(props) {
-//     super(props);
-//   }
-//   render() {
-//     return (
-//       <Form
-//         form={this.props.fields}
-//         sitecoreApiHost={sitecoreApiHost}
-//         sitecoreApiKey={sitecoreApiKey}
-//         onRedirect={(url) => this.props.history.push(url)}
-//       />
-//     );
-//   }
-// }
+const JssReactForm = (props) => {
+  const navigate = useNavigate();
 
-// export default withRouter(FormDisplay);
+  const handleRedirect = (url) => {
+    navigate(url);
+  };
 
-const JssReactForm = ({ fields, history }) => {
   return (
     <section className="sitecore__form">
       <Form
-        form={fields}
+        form={props.fields}
         sitecoreApiHost={sitecoreApiHost}
         sitecoreApiKey={sitecoreApiKey}
-        onRedirect={(url) => history.push(url)}
+        onRedirect={handleRedirect}
       />
     </section>
   );
 };
+
 export default JssReactForm;
