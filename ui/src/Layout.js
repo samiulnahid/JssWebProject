@@ -1,6 +1,6 @@
 import { Placeholder, VisitorIdentification } from '@sitecore-jss/sitecore-jss-react';
 import deepEqual from 'deep-equal';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Helmet from 'react-helmet';
 
 // Using bootstrap is completely optional. It's used here to provide a clean layout for samples,
@@ -10,7 +10,6 @@ import './assets/css/app.css';
 import './assets/css/form.css';
 import './assets/css/responsive.css';
 import './assets/css/style.css';
-import Loader from './components/Layout/Loader';
 
 /*
   APP LAYOUT
@@ -21,14 +20,6 @@ import Loader from './components/Layout/Loader';
 */
 
 const Layout = ({ route }) => {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setLoading(false);
-  }, []);
-
-  if (loading) return <Loader />;
-
   return (
     <React.Fragment>
       {/* react-helmet enables setting <head> contents, like title and OG meta tags */}
