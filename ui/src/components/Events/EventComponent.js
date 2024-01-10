@@ -1,7 +1,7 @@
 import { RichText, Text, withSitecoreContext } from '@sitecore-jss/sitecore-jss-react';
 import React from 'react';
 
-const getDateFormatted = (date) => new Date(date).toLocaleString();
+export const getDateFormatted = (date) => new Date(date).toLocaleString();
 
 const EventComponent = (props) => {
   const { title, author, content, endDate, startDate } = props?.sitecoreContext?.route?.fields;
@@ -19,7 +19,6 @@ const EventComponent = (props) => {
         <Text tag="p" field={author} style={{ fontStyle: 'italic', fontSize: 14 }} />
         <RichText field={content} className="mt-4" />
       </div>
-      {/* <Text field={props.fields.title} /> */}
     </section>
   );
 };
