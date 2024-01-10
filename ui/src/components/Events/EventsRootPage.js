@@ -1,5 +1,6 @@
 import React from 'react';
 import EventCard from './EventCard';
+import EventSearch from './EventSearch';
 
 const EventsRootPage = (props) => (
   <section>
@@ -15,6 +16,10 @@ const EventsRootPage = (props) => (
         cum delectus officia qui, laboriosam unde aliquam sunt ipsam vero minus fugit eum neque
         quae, veritatis.
       </p>
+
+      <div className="mt-5">
+        <EventSearch />
+      </div>
 
       <div className="event__list my-5">
         <EventCard />
