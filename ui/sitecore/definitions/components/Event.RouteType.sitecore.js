@@ -13,7 +13,7 @@ export default function (manifest) {
     fields: [
       { name: 'title', displayName: 'Title', type: CommonFieldTypes.SingleLineText },
       { name: 'author', displayName: 'Author', type: CommonFieldTypes.SingleLineText },
-      { name: 'content', displayName: 'Content', type: CommonFieldTypes.SingleLineText },
+      { name: 'content', displayName: 'Content', type: CommonFieldTypes.RichText },
       {
         name: 'startDate',
         displayName: 'Start Data',
@@ -24,7 +24,7 @@ export default function (manifest) {
         name: 'endDate',
         displayName: 'End Data',
         type: CommonFieldTypes.DateTime,
-        standardValue: '$now+1',
+        standardValue: '$now',
       },
     ],
     /*
