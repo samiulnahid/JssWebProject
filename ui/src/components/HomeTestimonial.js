@@ -11,51 +11,39 @@ import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-const HomeTestimonial = (props) => (
-  <section className="client_section layout_padding">
-    <div className="container">
-      <div className="heading_container heading_center psudo_white_primary mb_45">
-        <h2>
-          Our Clients Says
-          <Text field={props.fields.Heading} />
-        </h2>
-      </div>
+const HomeTestimonial = ({ fields }) => {
+  console.log('🚀 ~ HomeTestimonial ~ props:', fields);
+  return (
+    <section className="client_section layout_padding">
+      <div className="container">
+        <div className="heading_container heading_center psudo_white_primary mb_45">
+          <h2>
+            <Text field={fields.heading} />
+          </h2>
+        </div>
 
-      <div className="carousel-wrap">
-        <div className="owl-carousel client_owl-carousel">
-          {/* Slider */}
-          <Swiper
-            spaceBetween={50}
-            slidesPerView={2}
-            modules={[Pagination]}
-            pagination={true}
-            // onSlideChange={() => console.log('slide change')}
-            // onSwiper={(swiper) => console.log(swiper)}
-            style={{ paddingBottom: 30, userSelect: 'none' }}
-          >
-            <SwiperSlide>
-              <Testimonial />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Testimonial />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Testimonial />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Testimonial />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Testimonial />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Testimonial />
-            </SwiperSlide>
-          </Swiper>
+        <div className="carousel-wrap">
+          <div className="owl-carousel client_owl-carousel">
+            {/* Slider */}
+            <Swiper
+              spaceBetween={50}
+              slidesPerView={2}
+              modules={[Pagination]}
+              pagination={true}
+              // onSlideChange={() => console.log('slide change')}
+              // onSwiper={(swiper) => console.log(swiper)}
+              style={{ paddingBottom: 30, userSelect: 'none' }}
+            >
+              {fields?.CustomerReviews.map((item) => (
+                <SwiperSlide key={item?.id}>
+                  <Testimonial {...item?.fields} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-);
-
+    </section>
+  );
+};
 export default HomeTestimonial;
