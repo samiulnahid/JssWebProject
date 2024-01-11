@@ -18,7 +18,6 @@ function getSocialIcon(icon) {
 }
 
 export default function Footer(props) {
-  console.log('🚀 ~ Footer ~ props:', props);
   return (
     <>
       {/* <!-- info section --> */}
