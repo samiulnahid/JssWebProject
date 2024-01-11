@@ -6,13 +6,12 @@ import Testimonial from './Home/Testimonial';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import required modules
-import { Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 
 const HomeTestimonial = ({ fields }) => {
-  console.log('🚀 ~ HomeTestimonial ~ props:', fields);
   return (
     <section className="client_section layout_padding">
       <div className="container">
@@ -28,8 +27,12 @@ const HomeTestimonial = ({ fields }) => {
             <Swiper
               spaceBetween={50}
               slidesPerView={2}
-              modules={[Pagination]}
+              modules={[Pagination, Autoplay]}
               pagination={true}
+              autoplay={{
+                delay: 5000,
+                disableOnInteraction: false,
+              }}
               // onSlideChange={() => console.log('slide change')}
               // onSwiper={(swiper) => console.log(swiper)}
               style={{ paddingBottom: 30, userSelect: 'none' }}
