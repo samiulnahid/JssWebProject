@@ -4,8 +4,6 @@ import React from 'react';
 const HomeService = (props) => {
   return (
     <section className="service_section layout_padding">
-      {/* <small>{JSON.stringify(props)}</small> */}
-
       <div className="service_container">
         <div className="container">
           <div className="heading_container heading_center">

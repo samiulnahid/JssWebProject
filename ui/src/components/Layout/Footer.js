@@ -1,6 +1,21 @@
-import { Image, RichText, Text } from '@sitecore-jss/sitecore-jss-react';
+import { RichText, Text } from '@sitecore-jss/sitecore-jss-react';
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+function getAddressIcon(icon) {
+  const iconLowerCase = icon.toLowerCase();
+  if (iconLowerCase === 'location') return <i className="fa fa-map-marker" aria-hidden="true"></i>;
+  if (iconLowerCase === 'mobileno') return <i className="fa fa-phone" aria-hidden="true"></i>;
+  if (iconLowerCase === 'email') return <i className="fa fa-envelope" aria-hidden="true"></i>;
+}
+
+function getSocialIcon(icon) {
+  const iconLowerCase = icon.toLowerCase();
+  if (iconLowerCase === 'facebook') return <i className="fa fa-facebook" aria-hidden="true"></i>;
+  if (iconLowerCase === 'instragram') return <i className="fa fa-instagram" aria-hidden="true"></i>;
+  if (iconLowerCase === 'twitter') return <i className="fa fa-twitter" aria-hidden="true"></i>;
+  if (iconLowerCase === 'linkedin') return <i className="fa fa-linkedin" aria-hidden="true"></i>;
+}
 
 export default function Footer(props) {
   return (
@@ -21,23 +36,48 @@ export default function Footer(props) {
                   {/* Dynamic Address */}
                   {props.fields?.ContactAddress.map((item) => {
                     return (
-                      <a key={item.id} href={item.fields?.SocialLink.value.href}>
-                        <Image field={item.fields?.SocialIcon.value} />
-                        <span>{item.fields?.SocialName.value} </span>
+                      <a key={item.id} href={item?.fields?.Address?.value?.href}>
+                        <i className={item?.fields?.Icon?.value} aria-hidden="true"></i>
+                        <span className="ms-1">{item?.fields?.A_Title?.value} </span>
                       </a>
                     );
                   })}
                 </div>
               </div>
-              <div className="info_social">
-                {/* Dynamic Social Link */}
-                {props.fields?.SocialLink.map((item) => {
+
+              {/* <div className="info_social"> */}
+              {/* Dynamic Social Link */}
+              {/* {props.fields?.SocialLink.map((item) => {
                   return (
-                    <a key={item.id} href={item.fields?.SocialLink.value.href}>
-                      <Image field={item.fields?.SocialIcon.value} />
+                    <a key={item.id} href={item?.url}>
+                      {getSocialIcon(item?.displayName)}
                     </a>
                   );
-                })}
+                })} */}
+              {/* </div> */}
+
+              <div className="info_social">
+                {props.fields?.Facebook?.value?.href && (
+                  <a href={props.fields?.Facebook?.href}>
+                    <i className="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                )}
+
+                {props.fields?.Twitter?.value?.href && (
+                  <a href="">
+                    <i className="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                )}
+                {props.fields?.Linkedin?.value?.href && (
+                  <a href="">
+                    <i className="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                )}
+                {props.fields?.Instagram?.value?.href && (
+                  <a href="">
+                    <i className="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                )}
               </div>
             </div>
             <div className="col-md-6 col-lg-3 info_col">
