@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities; */
 
+:root {
+  --pmColor: #110958;
+}
 
 /*
   Hides Sitecore Experience Editor markup,
@@ -46,14 +49,14 @@ a:hover {
 
 .event__card:hover {
   transition: .5s;
-  border-color: #110958 !important;
+  border-color: var(--pmColor) !important;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25) !important;
 }
 
 
 /* .search__form */
 .search__form {
-  border: 2px solid #110958;
+  border: 2px solid var(--pmColor);
   border-radius: 30px;
   font-size: 20px;
   max-width: 700px;
@@ -70,7 +73,7 @@ a:hover {
 }
 
 .search__form button {
-  background: #110958;
+  background: var(--pmColor);
   color: #fff;
   width: 80px;
   text-align: center;
@@ -87,9 +90,9 @@ a:hover {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  padding-left: 0;
 }
 
-.event__pagination li {}
 
 .event__pagination li a {
   display: block;
@@ -114,13 +117,11 @@ a:hover {
   color: #000;
 }
 
-.event__pagination li.previous {}
-
 .event__pagination li.disabled a {
   opacity: .4;
 }
 
 .event__pagination li.selected a {
-  background: #110958;
+  background: var(--pmColor);
   color: #fff !important;
 }

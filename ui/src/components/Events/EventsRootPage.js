@@ -15,10 +15,7 @@ const EventsRootPage = ({ fields }) => {
           maxime qui reprehenderit, consequuntur aut deleniti possimus facere tempora. Aliquid
           eveniet at neque blanditiis! Dolore quidem et labore est, molestias amet aut ullam
           mollitia minima modi vero ipsam eligendi blanditiis laboriosam, consectetur nesciunt cum
-          reiciendis pariatur officiis? Aliquid sapiente vel sint? Doloribus repellat perferendis
-          fuga magnam architecto sit quis est molestiae. Dolorem rem voluptate minima dolorum animi
-          dolores eveniet est quas cum delectus officia qui, laboriosam unde aliquam sunt ipsam vero
-          minus fugit eum neque quae, veritatis.
+          reiciendis.
         </p>
 
         <div className="mt-5">
