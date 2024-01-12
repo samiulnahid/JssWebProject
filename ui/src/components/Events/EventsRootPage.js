@@ -1,5 +1,5 @@
 import React from 'react';
-import EventCard from './EventCard';
+import EventListWithPagination from './EventListWithPagination';
 import EventSearch from './EventSearch';
 
 const EventsRootPage = ({ fields }) => {
@@ -26,9 +26,7 @@ const EventsRootPage = ({ fields }) => {
         </div>
 
         <div className="event__list my-5">
-          {filteredEvents.map((item) => {
-            return <EventCard key={item?.id} data={item.fields} />;
-          })}
+          <EventListWithPagination events={filteredEvents} />
         </div>
       </div>
     </section>
