@@ -1,0 +1,14 @@
+﻿---
+ID: "c7198aa4-51c3-4263-93d6-87c16b060747"
+Parent: "a2f921c7-bd8f-5195-ac55-2ff63c878d1d"
+Template: "93b3bacd-ddcf-4425-a716-ee2731ac7e8d"
+Path: "/sitecore/content/sitecore-jss-app/Components/Header"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240103T110912Z

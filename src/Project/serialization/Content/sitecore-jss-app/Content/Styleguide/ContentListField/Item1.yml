@@ -1,0 +1,28 @@
+﻿---
+ID: "4a0b25e9-f7bf-5d6e-97f1-807b8394bda2"
+Parent: "0d37204f-b3e7-5cf7-a8a0-81518ab4d3d1"
+Template: "065dd4e5-6dc9-58fa-8c1e-20cc5fa8ff18"
+Path: "/sitecore/content/sitecore-jss-app/Content/Styleguide/ContentListField/Item1"
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Styleguide Content List Item 1 (Shared)
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240102T083621Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "c52603e4-7774-5395-ba13-38508d0d54d0"
+      Hint: textField
+      Value: ContentList Demo (Shared) Item 1 Text Field

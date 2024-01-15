@@ -1,0 +1,18 @@
+﻿---
+ID: "1f34e181-7a4e-4aca-83f8-797cad839220"
+Parent: "b8f8c2e8-792e-49c0-bd01-6e1673174214"
+Template: "35e75c72-4985-4e09-88c3-0eac6cd1e64f"
+Path: "/sitecore/templates/Branches/Feature/sitecore-jss-app/App Route"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240103T114543Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

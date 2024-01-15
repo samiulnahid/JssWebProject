@@ -1,0 +1,28 @@
+﻿---
+ID: "bc1eb428-216d-4aed-93e8-6fddb8c0a97e"
+Parent: "c3fa9e1a-a774-55b7-a4a1-e9a192243f9b"
+Template: "d59ca98e-9a06-5d4c-bee0-eb570eec7305"
+Path: "/sitecore/content/sitecore-jss-app/home/Page Components/HomeTestimonial"
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240102T135129Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{AF32C98B-C828-42AF-A649-74C1DE3303FB}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8f8e328b-ba40-5202-9614-01013114a132"
+      Hint: heading
+      Value: What says our Customers

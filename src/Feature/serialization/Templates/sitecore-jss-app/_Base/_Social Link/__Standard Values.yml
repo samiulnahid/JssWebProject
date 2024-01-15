@@ -1,0 +1,21 @@
+﻿---
+ID: "7105e63c-1d27-4247-887b-ce9cab914b9d"
+Parent: "1f92769c-436b-4829-8396-8f7f02bdb8de"
+Template: "1f92769c-436b-4829-8396-8f7f02bdb8de"
+Path: "/sitecore/templates/Feature/sitecore-jss-app/_Base/_Social Link/__Standard Values"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04f65a23-46a9-4962-aa42-e56e7943a67f"
+      Hint: SocialName
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240103T105902Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

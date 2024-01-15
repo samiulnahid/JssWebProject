@@ -1,0 +1,14 @@
+﻿---
+ID: "37246975-1489-42af-ba26-524461c4efc4"
+Parent: "c7198aa4-51c3-4263-93d6-87c16b060747"
+Template: "387d3783-9763-4504-825f-76bc9d28d7c0"
+Path: "/sitecore/content/sitecore-jss-app/Components/Header/Header"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240103T110919Z

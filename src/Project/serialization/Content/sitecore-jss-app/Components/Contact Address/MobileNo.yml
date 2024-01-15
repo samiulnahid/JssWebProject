@@ -1,0 +1,17 @@
+﻿---
+ID: "99507c6f-d39f-45df-802d-75f00f266421"
+Parent: "9cb03f00-3859-4816-99e2-1b6d0d3420bf"
+Template: "1f92769c-436b-4829-8396-8f7f02bdb8de"
+Path: "/sitecore/content/sitecore-jss-app/Components/Contact Address/MobileNo"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04f65a23-46a9-4962-aa42-e56e7943a67f"
+      Hint: SocialName
+      Value: Call +01123456564
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240103T105950Z

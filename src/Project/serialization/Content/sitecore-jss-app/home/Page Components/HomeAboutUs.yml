@@ -1,0 +1,53 @@
+﻿---
+ID: "26d362eb-fb6f-442f-b46b-3b0ed4abcd5e"
+Parent: "c3fa9e1a-a774-55b7-a4a1-e9a192243f9b"
+Template: "e52e85e9-a037-5cdd-9fa3-71deff0c3dce"
+Path: "/sitecore/content/sitecore-jss-app/home/Page Components/HomeAboutUs"
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25ac4ba4-69d6-4f30-9972-2b611c05055d"
+      Hint: PromoDescription
+      Value: |
+           <p>
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                        form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a
+                        passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All
+                      </p>
+                      <p>
+                        Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem, possimus at iste corrupti
+                        officiis unde alias eius ducimus reiciendis soluta eveniet. Nobis ullam ab omnis quasi expedita.
+                      </p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240102T134921Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{AF32C98B-C828-42AF-A649-74C1DE3303FB}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6bfc053f-e4ff-5da5-9b4a-bb66c6df6420"
+      Hint: Heading
+      Value: About Us
+    - ID: "8e2141e4-f6d1-46d8-9fe8-f783f571db01"
+      Hint: Description
+      Value: |
+        Magni quod blanditiis non minus sed aut voluptatum illum quisquam aspernatur ullam vel beatae rerum ipsum voluptatibus
+        
+        
+    - ID: "d50350e8-7048-4ff3-8917-9d07a382cfa5"
+      Hint: PromoImage
+      Value: |
+        <image mediaid="{105694AF-CBBF-49C4-AEBC-BBE367CF8ED8}" />
+    - ID: "e5d47e89-6957-4110-85c1-49fa21d6dde7"
+      Hint: PromoTitle
+      Value: We Are Finexo

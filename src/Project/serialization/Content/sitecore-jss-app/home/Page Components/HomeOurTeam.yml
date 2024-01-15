@@ -1,0 +1,25 @@
+﻿---
+ID: "8603362b-7884-4dac-9aa3-a628014461bd"
+Parent: "c3fa9e1a-a774-55b7-a4a1-e9a192243f9b"
+Template: "61f7223b-0cfe-54d4-9c5a-b1ff58813500"
+Path: "/sitecore/content/sitecore-jss-app/home/Page Components/HomeOurTeam"
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240102T135047Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

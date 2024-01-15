@@ -1,0 +1,17 @@
+﻿---
+ID: "31daf6ab-e913-400b-a8c9-d7e9e98c6317"
+Parent: "9cb03f00-3859-4816-99e2-1b6d0d3420bf"
+Template: "1f92769c-436b-4829-8396-8f7f02bdb8de"
+Path: "/sitecore/content/sitecore-jss-app/Components/Contact Address/Location"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04f65a23-46a9-4962-aa42-e56e7943a67f"
+      Hint: SocialName
+      Value: Location
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240103T105921Z

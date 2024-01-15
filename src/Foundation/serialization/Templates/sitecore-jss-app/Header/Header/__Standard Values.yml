@@ -1,0 +1,23 @@
+﻿---
+ID: "df04bfc0-e3bb-4192-b44a-043b95ce2681"
+Parent: "387d3783-9763-4504-825f-76bc9d28d7c0"
+Template: "387d3783-9763-4504-825f-76bc9d28d7c0"
+Path: "/sitecore/templates/Foundation/sitecore-jss-app/Header/Header/__Standard Values"
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{F428783E-FA24-480F-B319-50574124CDE6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240103T083731Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

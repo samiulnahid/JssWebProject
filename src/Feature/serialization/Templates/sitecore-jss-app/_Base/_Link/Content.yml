@@ -1,0 +1,18 @@
+﻿---
+ID: "003a1773-35d9-4355-ad4b-26b70db66dbd"
+Parent: "e0a34d8a-fe57-405b-bca0-535b44f6e349"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: "/sitecore/templates/Feature/sitecore-jss-app/_Base/_Link/Content"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240103T083029Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

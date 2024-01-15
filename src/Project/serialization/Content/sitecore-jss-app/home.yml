@@ -1,0 +1,75 @@
+﻿---
+ID: "5288d54b-295e-5fed-9225-d9a08f763234"
+Parent: "33e0826a-f8f6-5961-a24a-2f4cc7fa946e"
+Template: "ccd7acfa-6848-5b61-960c-fb0a533d3cd3"
+Path: "/sitecore/content/sitecore-jss-app/home"
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {9C2F8014-9622-473D-8DA0-F4C11D848C5E}
+    {1F34E181-7A4E-4ACA-83F8-797CAD839220}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{1EC16500-C56E-42B2-91A3-2843AD249021}"
+              p:after="p[@uid='{F47F9667-2AE7-5B0B-BFA1-C552DA5B96A5}']"
+              s:ds="{2E33912C-CD43-4704-B161-CDC9BDFA1999}"
+              s:id="{965CFBDD-7CDF-5F8D-AAE9-9D09C3F054F3}"
+              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear on publish"
+              s:ph="jss-main" />
+            <r
+              uid="{682BC4F5-3FFC-4708-9D3E-85367982AF9F}"
+              p:after="r[@uid='{1EC16500-C56E-42B2-91A3-2843AD249021}']"
+              s:ds="{65DEABE2-39C8-4B7E-9AE4-CED4C37D3E57}"
+              s:id="{74286CF9-570C-54D1-9692-5D9BC8B18986}"
+              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear on publish"
+              s:ph="jss-main" />
+            <r
+              uid="{9C5F7819-B1C0-49DB-976A-17F46AE2BA2F}"
+              p:after="r[@uid='{682BC4F5-3FFC-4708-9D3E-85367982AF9F}']"
+              s:ds="{26D362EB-FB6F-442F-B46B-3B0ED4ABCD5E}"
+              s:id="{0C07CA65-9B95-530F-AC79-9D9FB4C3B707}"
+              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear on publish"
+              s:ph="jss-main" />
+            <r
+              uid="{FD0B44B6-285B-4D22-9822-8BF25B2EC5FC}"
+              p:after="r[@uid='{9C5F7819-B1C0-49DB-976A-17F46AE2BA2F}']"
+              s:ds="{26798A5D-6365-4972-9BD9-B9C76BCC1594}"
+              s:id="{12419469-A554-5FEE-B5C8-F5D509995B01}"
+              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear on publish"
+              s:ph="jss-main" />
+            <r
+              uid="{3B0381E4-C4E0-4DDD-BDC3-09332882A24B}"
+              p:after="*[1=2]"
+              s:ds="{8603362B-7884-4DAC-9AA3-A628014461BD}"
+              s:id="{36F64104-5814-55F4-B93E-E7DA3DB8938A}"
+              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear on publish"
+              s:ph="jss-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240102T083621Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{AF32C98B-C828-42AF-A649-74C1DE3303FB}"
+    - ID: "50e0c6e5-f875-53c2-b98c-9b5b5a96705b"
+      Hint: pageTitle
+      Value: Welcome to Sitecore JSS

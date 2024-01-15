@@ -1,0 +1,14 @@
+﻿---
+ID: "b5c73008-3079-4fca-a637-f297d862837f"
+Parent: "a2f921c7-bd8f-5195-ac55-2ff63c878d1d"
+Template: "1bd5164a-4331-45ce-8f71-d8f827c1ac0e"
+Path: "/sitecore/content/sitecore-jss-app/Components/Footer"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240103T110521Z

@@ -1,0 +1,30 @@
+﻿---
+ID: "a2f921c7-bd8f-5195-ac55-2ff63c878d1d"
+Parent: "33e0826a-f8f6-5961-a24a-2f4cc7fa946e"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: "/sitecore/content/sitecore-jss-app/Components"
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {93B3BACD-DDCF-4425-A716-EE2731AC7E8D}
+    {1BD5164A-4331-45CE-8F71-D8F827C1AC0E}
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Components
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240102T083614Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport

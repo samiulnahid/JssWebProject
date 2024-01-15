@@ -1,0 +1,42 @@
+﻿---
+ID: "2e33912c-cd43-4704-b161-cdc9bdfa1999"
+Parent: "c3fa9e1a-a774-55b7-a4a1-e9a192243f9b"
+Template: "9e1957a0-455f-5503-bb54-ca0f720ce798"
+Path: "/sitecore/content/sitecore-jss-app/home/Page Components/HomeBanner"
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f3bcb8e-9132-4041-8732-fa99f01cf32b"
+      Hint: Description
+      Value: |
+        Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid
+                                error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi
+                                impedit sequi.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240102T125219Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{AF32C98B-C828-42AF-A649-74C1DE3303FB}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "81578dad-3512-525f-8011-bcb1853e03db"
+      Hint: Heading
+      Value: Crypto Currency Test 33
+    - ID: "abd0778d-3ac0-44ab-b241-02f69cffc4a5"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{3666D2CA-E61C-4E73-8D07-1CCB54EA1BEA}" />
+    - ID: "d70d8786-c6a7-4515-ba08-8a06d3cf0acd"
+      Hint: HeroImage
+      Value: |
+        <image mediaid="{9A9FDCE2-BC02-4D5F-908F-7D1C6D965B42}" />
