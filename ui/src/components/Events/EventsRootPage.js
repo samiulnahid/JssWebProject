@@ -8,6 +8,7 @@ const EventsRootPage = ({ fields }) => {
   const filteredEvents = eventsList.filter((event) => event?.fields?.title);
 
   const [events, setEvents] = useState(filteredEvents);
+  const [searchParams, setSearchParams] = useSearchParams();
 
   const handleSearch = (text) => {
     if (window.searchWithDebounce) clearTimeout(window.searchWithDebounce);
@@ -19,8 +20,6 @@ const EventsRootPage = ({ fields }) => {
       setEvents(filteredEvents);
     }, 500);
   };
-
-  const [searchParams, setSearchParams] = useSearchParams();
 
   useEffect(() => {
     const searchQuery = searchParams.get('search');
